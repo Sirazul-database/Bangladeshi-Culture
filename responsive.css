@@ -1,0 +1,153 @@
+@media(max-width:480px){
+    .culture{
+        font-size: small;
+        margin-left: 40px;
+
+    }
+
+    .nav li {
+        display: inline-block;
+        margin-left: 7px;
+        padding : 5px  5px;
+      
+        position: relative;
+      }
+      #ban{
+        margin-top: 2rem;
+      }
+}
+
+
+@media (max-width:780px  ) {
+    
+    .footer-distributed{
+    font: bold 14px sans-serif;
+    
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    display: flexbox;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    
+    .footer-distributed .footer-center i{
+    margin-left: 0;
+    }
+    .main {
+    line-height: normal;
+    font-size: auto;
+    }
+    
+    #ban{
+      margin-top: 2rem;
+      
+    }
+    
+    
+   }
+   @media(max-width:380px){
+    
+    .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 0.5vh;
+        cursor: pointer;
+        background-color:  #33383b;
+        border-radius: 2px;
+        
+        font-size: 2.4rem;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        
+        margin-right: 1px;
+        margin-bottom: 1px;
+       }
+   }
+@media(max-width:380px){
+    .nav {
+        float: left;
+        background: #55d6aa;
+        overflow: hidden;
+       
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding-bottom: 0px;
+      }
+      .nav li {
+        display: inline-block;
+        margin-left: 7px;
+        padding :10px  10px;
+      
+        position: relative;
+      }
+      .nav a {
+        color: #444;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+      }
+
+      .one{
+        margin-left: 1.4rem;
+        margin-right: .9rem;
+        font-size: 1rem;
+        padding: 5px;
+        
+      }
+      #two{
+       margin-left: 1.4rem;
+       margin-right: .9rem;
+       font-size: 1rem;
+     
+      }
+     #three{
+       margin-left: 1.4rem;
+       margin-right: .9rem;
+       font-size: 1rem;
+     
+     }
+     #ban{
+       margin-top: 2rem;
+     }
+}
+  
+
+@media  (max-width: 1280px  ) {
+    
+    .footer-distributed{
+    font: bold px sans-serif;
+    
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    display: flexbox;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    
+    .footer-distributed .footer-center i{
+    margin-left: 0;
+    }
+
+    .nav li {
+        display: inline-block;
+        margin-left: 7px;
+        padding :10px  5px;
+      
+        position: relative;
+      }
+     
+    
+   }
+
+
+    

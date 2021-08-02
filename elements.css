@@ -1,0 +1,223 @@
+body{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+    background: whitesmoke;
+}
+ 
+ 
+/*  */
+.awesome{
+ 
+  margin-top: 2rem;
+ 
+  
+}
+
+
+/*  */
+  .awesome {
+    
+    font-size: 5rem;
+    
+    font-family: futura;
+    font-style: italic;
+    
+    width:100%;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+    color:#313131;
+    
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange 20s infinite alternate;
+    
+    
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+  /*  */
+  #my{
+      margin: .5rem;
+       
+      padding: 1.5rem;
+      margin-top: 5rem;
+      text-align: center;
+       background-color: mediumvioletred;
+        border-radius:1rem;
+
+  }
+  .element p{
+      margin-left: 3rem;
+      text-decoration: underline chartreuse;
+  }
+  .element ol{
+      margin-left: 3rem;
+      margin-right: 1.5rem;
+
+
+  }
+
+  .sports{
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .music{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+.religion{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.fest{
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+.architect{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.life{
+  margin-left:2rem;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+
+}
+
+.foot{
+  text-align: center;
+  color: #1abc9c;
+   margin: 1rem;
+   padding: 1pc;
+}
+
+@media(max-width:1024px){
+  .main{
+    font-size: 2.5rem;
+
+  }
+  #my{
+    font-size: 3.5rem;
+    margin-left: 1.2rem;
+    margin-right: 1.1rem;
+  }
+  
+ 
+}
+
+@media(max-width:380px){
+  .main{
+    font-size: 1rem;
+
+  }
+  .awesome{
+    font-size: 2rem;
+ 
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    
+  }
+  
+  #my{
+    font-size: 2rem;
+     margin-right: 1rem;
+  }
+
+ 
+}
+/*  */
+.button {
+  margin-right: 1.4rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 6px;
+  outline: none;
+  float: right;
+  
+}
+@media(max-width:380px){
+  .button{
+    margin-right: .5rem;
+    padding: 6px 10px;
+  }
+
+}
+@media(max-width:450px){
+  .main{
+    font-size: 1.1rem;
+  }
+  .awesome{
+    font-size: 2.2rem;
+    margin-top: 1.2rem;
+  }
+  #my{
+    font-size: 2rem;
+  }
+}
+@media()
