@@ -8,9 +8,6 @@ body {
 
 }
  
-
-
-
   /*  */
   .nav {
      
@@ -65,8 +62,6 @@ body {
     width: 100%;
   }
   
-
-
   /*  */
 
 #ban {
@@ -98,8 +93,7 @@ h2 {
 }
 
 
- 
-  
+
   /* Hide the images by default */
   .mySlides {
     display: none;
